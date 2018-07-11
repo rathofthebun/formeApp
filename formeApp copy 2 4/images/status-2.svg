@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="223px" height="39px" viewBox="0 0 223 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>status-bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="exercise" transform="translate(-728.000000, -29.000000)">
+            <g id="status-bar" transform="translate(729.000000, 26.000000)">
+                <text id="Step-2-of-3" font-family="Futura-Medium, Futura" font-size="13" font-weight="400" fill="#C0FAF2">
+                    <tspan x="76" y="14">Step 2 of 3</tspan>
+                </text>
+                <path d="M14.5130208,30.5 L210.486979,30.5" id="Line-2" stroke="#C2FAF3" stroke-width="3" stroke-linecap="square"></path>
+                <ellipse id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3" cx="9.5" cy="31" rx="9.5" ry="9"></ellipse>
+                <ellipse id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#7856FF" cx="113.5" cy="31" rx="9.5" ry="9"></ellipse>
+                <ellipse id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#7953FF" cx="211.5" cy="29" rx="9.5" ry="9"></ellipse>
+                <path d="M114,22 C118.49995,22.5004989 122,26.3389993 122,31 C122,35.6610007 118.49995,39.4995011 114,40 L114,22 Z" id="Combined-Shape" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3"></path>
+                <text id="Step-2-of-3" font-family="Futura-Medium, Futura" font-size="13" font-weight="400" fill="#C0FAF2">
+                    <tspan x="76" y="14">Step 2 of 3</tspan>
+                </text>
+                <path d="M14.5130208,30.5 L210.486979,30.5" id="Line-2" stroke="#C2FAF3" stroke-width="3" stroke-linecap="square"></path>
+                <ellipse id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3" cx="9.5" cy="31" rx="9.5" ry="9"></ellipse>
+                <ellipse id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#7856FF" cx="113.5" cy="31" rx="9.5" ry="9"></ellipse>
+                <ellipse id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#7953FF" cx="211.5" cy="29" rx="9.5" ry="9"></ellipse>
+                <path d="M114,22 C118.49995,22.5004989 122,26.3389993 122,31 C122,35.6610007 118.49995,39.4995011 114,40 L114,22 Z" id="Combined-Shape" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

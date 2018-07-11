@@ -1,0 +1,53 @@
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="dash-style.css">
+
+    <div class="header-check-in">
+        <div class="logo">
+            <img src="images/logo-purple.svg">
+        </div>
+        <div class="nav">
+            <img src="images/status-1.svg">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="emotion">
+            <img src="images/magic-bear-purple.svg">
+        </div>
+        <div id="sliderSubmit">
+            <h2>Take a moment to be present with yourself.</h2>
+            <h2 class="check-in-title">How are you feeling today?</h2>
+            <div class=slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div id="checkInSubmit">
+                Submit
+            </div>
+        </div>
+    </div>
+
+    <div class="footer check-in-footer">
+        <div class="footer-button question">
+            ?
+        </div>
+        <a href="dash.html"><div class="footer-button home">
+            <i class="fas fa-home"></i>
+        </div></a>
+    </div>
+
+    <script>
+
+        $("#checkInSubmit").on("click", function(){
+        	const myRange = $("#myRange").val();
+
+	        // save to firebase - which for whatever reason you do not have/didn't copy from my sample project
+	        userdata[todaysDate]["checkIn"] =  myRange;
+	        updateFirebase();
+
+        });
+
+
+    </script>

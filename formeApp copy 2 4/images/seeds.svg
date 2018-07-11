@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="177px" viewBox="0 0 82 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Seed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1.03311258 61.9886435 76.9668874 61.9886435 67.1523179 139.346372 11.3642384 139.346372"></polygon>
+        <filter x="-7.9%" y="-2.6%" width="115.8%" height="115.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="0" y="61.9886435" width="78" height="17.9305994"></rect>
+        <filter x="-5.1%" y="-11.2%" width="110.3%" height="144.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-5" cx="39.2582781" cy="37.3981073" rx="3.09933775" ry="3.58611987"></ellipse>
+        <filter x="-64.5%" y="-27.9%" width="229.1%" height="211.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tutorial_3" transform="translate(-475.000000, -189.000000)">
+            <g id="Seed" transform="translate(477.000000, 188.000000)">
+                <polygon id="Triangle" fill="#59379D" transform="translate(41.955062, 3.557184) rotate(75.000000) translate(-41.955062, -3.557184) " points="41.9550619 1.50797301 44.2795652 5.60639573 39.6305586 5.60639573"></polygon>
+                <polygon id="Star" fill="#8BF6E7" transform="translate(18.895807, 12.997427) scale(-1, 1) translate(-18.895807, -12.997427) " points="18.8958071 13.2702917 18.4526772 13.4118887 18.5373075 13.1119814 18.1788079 12.8995859 18.6742422 12.85583 18.8958071 12.5829653 19.117372 12.85583 19.6128062 12.8995859 19.2543066 13.1119814 19.3389369 13.4118887"></polygon>
+                <g id="Group" transform="translate(0.000000, 34.000000)">
+                    <g id="Rectangle-12">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#EFB4B4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle-13">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#EFB4B4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Oval-11">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#8BF6E7" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <polygon id="Triangle" fill="#8BF6E7" transform="translate(36.276205, 16.013681) scale(-1, 1) rotate(75.000000) translate(-36.276205, -16.013681) " points="36.2762048 15.0869167 37.2334712 16.9404457 35.3189384 16.9404457"></polygon>
+                    <polygon id="Star" fill="#59379D" transform="translate(45.645706, 19.881970) scale(-1, 1) translate(-45.645706, -19.881970) " points="45.6457061 20.8293929 44.5713026 21.321037 44.7764954 20.279718 43.9072848 19.5422519 45.1085044 19.3903255 45.6457061 18.4429022 46.1829078 19.3903255 47.3841275 19.5422519 46.5149168 20.279718 46.7201096 21.321037"></polygon>
+                    <polygon id="Star" fill="#FFFFFF" transform="translate(29.443709, 22.443484) scale(-1, 1) translate(-29.443709, -22.443484) " points="29.4437086 23.0536278 28.5328361 23.3702483 28.7067973 22.6996352 27.9698859 22.2247044 28.9882724 22.1268632 29.4437086 21.5167192 29.8991449 22.1268632 30.9175313 22.2247044 30.1806199 22.6996352 30.3545811 23.3702483"></polygon>
+                    <polygon id="Star" fill="#8BF6E7" transform="translate(45.104818, 11.172821) scale(-1, 1) translate(-45.104818, -11.172821) " points="45.1048184 11.445686 44.6616886 11.587283 44.7463189 11.2873757 44.3878193 11.0749802 44.8832535 11.0312243 45.1048184 10.7583596 45.3263833 11.0312243 45.8218175 11.0749802 45.463318 11.2873757 45.5479483 11.587283"></polygon>
+                    <polygon id="Star" fill="#8BF6E7" transform="translate(45.104818, 11.172821) scale(-1, 1) translate(-45.104818, -11.172821) " points="45.1048184 11.445686 44.6616886 11.587283 44.7463189 11.2873757 44.3878193 11.0749802 44.8832535 11.0312243 45.1048184 10.7583596 45.3263833 11.0312243 45.8218175 11.0749802 45.463318 11.2873757 45.5479483 11.587283"></polygon>
+                    <polygon id="Star" fill="#59379D" transform="translate(29.884419, 0.926765) scale(-1, 1) translate(-29.884419, -0.926765) " points="29.8844187 1.53690852 29.2927955 1.85352908 29.4057855 1.18291596 28.9271523 0.707985111 29.5886071 0.610143975 29.8844187 0 30.1802303 0.610143975 30.8416851 0.707985111 30.3630519 1.18291596 30.4760419 1.85352908"></polygon>
+                    <path d="M39.5165563,45.8511041 L39.5165563,57.1217666" id="Line-4" stroke="#59379D" stroke-width="0.512" fill="#59379D" stroke-linecap="square"></path>
+                    <path id="Line-4-decoration-1" d="M39.5165563,57.1217666 L42.5165563,46.3217666 L36.5165563,46.3217666 L39.5165563,57.1217666 Z" stroke="#59379D" stroke-width="0.512" fill="#59379D" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

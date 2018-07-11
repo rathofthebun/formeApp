@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Forming!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="dash-style.css">
+    <!--firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+</head>
+<body>
+    <!--modal ajax!-->
+    <div class="close" style="display: none; position: fixed; top:0;right:0;z-index: 9999;"><i class="fa fa-window-close" aria-hidden="true"></i></div>
+    <div class="modal" style="display:none; position: fixed; top:0;right:0; bottom: 0; left: 0; z-index: 990;background:rgb(73,45,255);
+    background: linear-gradient(166deg, rgba(73,45,255,1) 0%, rgba(165,97,255,1) 100%);"></div>
+    <div class="modalMint" style="display:none; position: fixed; top:0;right:0; bottom: 0; left: 0; z-index: 990; background: rgb(187,245,237);
+    background: linear-gradient(166deg, rgba(187,245,237,1) 0%, rgba(223,251,248,1) 100%) no-repeat;"></div>
+
+
+    <div class="wrap">
+
+        <div class="nav-bar-dash">
+            <div><img src="images/logo-purple.svg"></div>
+            <div class="nav-dash">
+                <div class="nav-flex">
+                    <img class="bearHead" src="images/bear-head.svg" height="25px">
+                    <div class="logOut">Log Out</div>
+
+                </div>
+            </div>
+        </div>
+
+    <div class="indicators">
+        <div class="daily">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="greeting">
+            Hello, Lovely!
+        </div>
+        <div class="weekly">
+                <div class="dailyProgress">
+                    <ul class="progressPerDay">
+
+                    </ul>
+            </div>
+            </div>
+            <div class="weekly-title" >
+                Weekly!
+            </div>
+        </div>
+    </div>
+        <div class="steps">
+            <div  class="diamond check-in openPageMint" data-page="check-in.html"><i class="fas fa-hand-holding-heart"></i></div>
+            <div  class="diamond tooltips openPage" data-page="exercise.html"><i class="fas fa-hands-helping"></i></div>
+            <div class="diamond openPage" data-page="journal.html"><i class="fas fa-pencil-alt"></i></a>
+        </div>
+        <div class="footer footer-dash">
+            <a class="footer-button question  tooltips">
+                ?<span>Help</span>
+            </a>
+            <a class="footer-button progress openPage tooltips" data-page="journalLog.html">
+                <span>Journal Entries</span><i class="fas fa-chart-line"></i>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!--check boxes!-->
+    <div class="checkIn-check check-box">
+        <i class="fas fa-check"></i>
+    </div>
+    <div class="e-check check-box">
+    <i class="fas fa-check"></i>
+    </div>
+    <div class="j-check check-box">
+    <i class="fas fa-check"></i>
+    </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js'></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script>
+
+
+        $(function () {
+            $(".openPage").click(function(){
+                var href = $(this).attr("data-page");
+                $(".close").css("display","inline");
+                $.ajax({
+                    type: "GET",
+                    cache: false,
+                    url: href,
+                    timeout: 3000,
+                    dataType: "html"
+                })
+                    .done(function (myHtml) {
+                        $(".modal").html(myHtml).fadeIn();
+                    })
+                    .fail(function () {
+                        console.error("WOOOPS");
+                    });
+            });
+            $(".openPageMint").click(function(){
+                var href = $(this).attr("data-page");
+                $(".close").fadeIn();
+                $.ajax({
+                    type: "GET",
+                    cache: false,
+                    url: href,
+                    timeout: 3000,
+                    dataType: "html"
+                })
+                    .done(function (myHtml) {
+                        $(".modalMint").html(myHtml).fadeIn();
+                    })
+                    .fail(function () {
+                        console.error("WOOOPS");
+                    });
+            });
+            $(".close").click(function(){
+                $(".modal").html("").fadeOut();
+                $(".modalMint").html("").fadeOut();
+                $(".close").fadeOut();
+            });
+            $("#checkInSubmit").click(function(){
+                $(".modal").html("").fadeOut();
+                $(".modalMint").html("").fadeOut();
+                $(".close").fadeOut();
+            });
+        });
+        var canvas = document.getElementById("canvas");
+
+        // Apply multiply blend when drawing datasets
+        var multiply = {
+            beforeDatasetsDraw: function (chart, options, el) {
+                chart.ctx.globalCompositeOperation = 'multiply';
+            },
+            afterDatasetsDraw: function (chart, options) {
+                chart.ctx.globalCompositeOperation = 'source-over';
+            },
+        };
+
+        // Gradient color - this week
+        var gradientThisWeek = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
+        gradientThisWeek.addColorStop(0, '#5555FF');
+        gradientThisWeek.addColorStop(1, '#9787FF');
+
+        // Gradient color - previous week
+        var gradientPrevWeek = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
+        gradientPrevWeek.addColorStop(0, '#FF55B8');
+        gradientPrevWeek.addColorStop(1, '#FF8787');
+
+
+        var config = {
+            type: 'line',
+            data: {
+                labels: ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
+                datasets: [
+                    {
+                        label: 'This week',
+                        data: [3, 6, 4, 5, 4, 7, 8],
+                        backgroundColor: gradientThisWeek,
+                        borderColor: 'transparent',
+                        pointBackgroundColor: '#FFFFFF',
+                        pointBorderColor: '#FFFFFF',
+                        lineTension: 0.40,
+                    }
+                ]
+            },
+            options: {
+                elements: {
+                    point: {
+                        radius: 0,
+                        hitRadius: 5,
+                        hoverRadius: 5
+                    }
+                },
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    xAxes: [{
+                        display: false,
+                    }],
+                    yAxes: [{
+                        display: false,
+                        ticks: {
+                            beginAtZero: true,
+                        },
+                    }]
+                }
+            },
+            plugins: [multiply],
+        };
+
+        window.chart = new Chart(canvas, config);
+</script>
+    <script>
+        // Initialize Firebase
+
+
+    </script>
+        <!--&lt;!&ndash;bootstrap js&ndash;&gt;-->
+        <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+        <!--<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>-->
+        <!--<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>-->
+
+        <!--<script src="script/initialize.js"></script>-->
+        <script src="script/progress.js"></script>
+</body>
+</html>

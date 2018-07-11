@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forme, an easy way to build self-love!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!jquery!--->
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="wrap">
+        <!--nav bar-->
+        <div class="nav">
+            <div class="logo"><img src="images/logo-mint.svg"></div>
+            <div class="nav-bar">
+                <a class="home active">Home</a>
+                <a class="about">About</a>
+                <a class="login" href="Login.html">Login</a>
+            </div>
+        </div>
+        <!--top and bottom decor-->
+        <div class="purple">
+        <img src="images/top.svg">
+        </div>
+        <div class="purple2">
+            <img src="images/bottom.svg">
+        </div>
+        <!--hovering illustration-->
+        <div class="meditator">
+        </div>
+
+        <!--hero-->
+        <div class="hero">
+            <h2 class="hero-title">Self Care takes practice</h2>
+
+            <a class="hero-btn">Start Today!</a>
+
+        </div>
+
+    </div>
+</div>
+
+    <!---modal!!!!-->
+    <div class="dark-bg"></div>
+
+
+    <div class="modal-1 modal">
+        <div class="modal-head">
+            <div></div>
+            <div class="close-btn"><i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="modal-content">
+        <h3>Caring for yourself allows you to achieve your goals and live a fulfilling life!</h3>
+            <div class="modal-img"><img src="images/bear-heart.svg" height="170px"></div>
+            <a class="modal-btn modal-1 next">Next ></a>
+        </div>
+    </div>
+<div class="modal-2 modal">
+    <div class="modal-head">
+        <div></div>
+        <div class="close-btn"><i class="fa fa-window-close" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="modal-content">
+        <h3>We make self-love as easy as 1, 2, 3.</h3>
+        <div class="step-img"><img src="images/steps.svg"></div>
+        <a class="modal-btn-2">Next ></a>
+    </div>
+</div>
+<div class="modal-3 modal">
+    <div class="modal-head">
+        <div></div>
+        <div class="close-btn"><i class="fa fa-window-close" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="modal-content">
+        <h3>Plant a seed to watch it grow each day!</h3>
+        <div class="seeds"><img src="images/seeds.svg"></div>
+        <a class="modal-btn-3 next">Sign Up for Free</a>
+    </div>
+
+    <div class="logo-z"></div>
+</div>
+<!--top & bottom decor-->
+
+
+<script>
+    $(document).ready(function(){
+        $(".hero-btn").on("click", function(){
+            $(".modal").first().slideDown(800);
+            console.log("hi!");
+            $(".dark-bg").fadeIn();
+        });
+    });
+    $(".close-btn").hover(function(){
+        $(".modal-head").css("padding", "0px");
+    });
+    $(".close-btn, .dark-bg").on("click", function(){
+        $(".modal, .modal-2, .modal-3").slideUp(1000);
+        $(".dark-bg").fadeOut();
+        console.log("hi!");
+        $(".wrap-wrap").css("background", "#00000000");
+    });
+    $(".next").on("click", function(){
+        console.log("poopy", $(this).parents(".modal").next().length);
+        $(this).parents(".modal").slideUp(800).next().slideDown(1000);
+        if($(this).parents(".modal").is(":last-of-type")){
+            window.location.href="signup.html";
+        }
+
+    });
+    $(".modal-btn-2").on("click", function(){
+        console.log("poopy");
+        $(".modal-2").slideUp(800);
+        $(".modal-3").slideDown(1000);
+    });
+
+</script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+
+    <script src="script/initialize.js"></script>>
+</body>
+</html>

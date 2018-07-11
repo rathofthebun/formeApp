@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--bootstrap material css-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!--bootstrap material js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+    <link rel="stylesheet" href="dash-style.css">
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        Logo
+    </div>
+    <div class="nav">
+
+    </div>
+</div>
+<form id="sign-up">
+    <div class="form-group">
+        <label for="signup-email">Email address</label>
+        <input type="email" class="form-control" id="signup-email" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="signup-password">Password</label>
+        <input type="password" class="form-control" id="signup-password" placeholder="Password">
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDIdaclc2AkqpFKSgt5hMIOpKSAnFAWsXs",
+        authDomain: "forme-1abe6.firebaseapp.com",
+        databaseURL: "https://forme-1abe6.firebaseio.com",
+        projectId: "forme-1abe6",
+        storageBucket: "forme-1abe6.appspot.com",
+        messagingSenderId: "399636586027"
+    };
+    firebase.initializeApp(config);
+
+
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                console.log("LOGGEDIN");
+            } else {
+                console.log("SIGNED OUT");
+            }
+        });
+
+
+
+
+
+</script>
+
+</body>
+</html>

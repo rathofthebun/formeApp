@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="239px" height="204px" viewBox="0 0 239 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Magic Guy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#96F6E9" offset="0%"></stop>
+            <stop stop-color="#C5FAF3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.4880795%" y1="114.100821%" x2="30.2408697%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#8BF6E7" offset="0%"></stop>
+            <stop stop-color="#C5FAF3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#8BF6E7" offset="0%"></stop>
+            <stop stop-color="#C5FAF3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="33.3778409%" y1="-24.8503989%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#8FF6E7" offset="0%"></stop>
+            <stop stop-color="#BBF5ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="exercise" transform="translate(-391.000000, -90.000000)">
+            <g id="Magic-Guy" transform="translate(390.000000, 89.000000)">
+                <polygon id="Rectangle-9" fill="url(#linearGradient-1)" points="111.832551 101.320414 130.431727 101.320414 140.607692 160.217588 103.561538 160.217588"></polygon>
+                <path d="M144.924706,135.833109 C153.376042,135.833109 179.468893,114.791831 160.227204,114.791831 C155.158703,114.791831 155.158703,124.666081 144.924706,125.116985 C134.69071,125.567888 144.337303,104.46083 140.121617,108.673048 C130.705959,118.08096 136.47337,135.833109 144.924706,135.833109 Z" id="Oval-6" stroke="#C5FAF3" stroke-width="2.592" fill="#C5FAF3" transform="translate(151.210428, 121.974950) rotate(-49.000000) translate(-151.210428, -121.974950) "></path>
+                <path d="M84.8182821,136.483633 C93.3963198,136.483633 119.880352,115.529961 100.350193,115.529961 C95.2057057,115.529961 95.2057057,125.3631 84.8182821,125.812126 C74.4308586,126.261152 81.1353992,105.896422 77.9486801,109.111777 C68.846653,118.295594 76.2402444,136.483633 84.8182821,136.483633 Z" id="Oval-6" stroke="#C5FAF3" stroke-width="2.592" fill="#C5FAF3" transform="translate(90.575648, 122.625475) scale(-1, 1) rotate(-49.000000) translate(-90.575648, -122.625475) "></path>
+                <ellipse id="Oval-7" stroke="#C5FAF3" stroke-width="2.592" fill="#C5FAF3" transform="translate(118.207692, 179.705624) rotate(-55.000000) translate(-118.207692, -179.705624) " cx="118.207692" cy="179.705624" rx="6.89230769" ry="39.4091384"></ellipse>
+                <ellipse id="Oval-7" stroke="#C5FAF3" stroke-width="2.592" fill="#C5FAF3" transform="translate(124.238462, 179.272556) scale(-1, 1) rotate(-55.000000) translate(-124.238462, -179.272556) " cx="124.238462" cy="179.272556" rx="6.89230769" ry="39.8422059"></ellipse>
+                <ellipse id="Oval-4" fill="url(#linearGradient-2)" cx="120.876923" cy="74.7163171" rx="31.8769231" ry="27.7163171"></ellipse>
+                <ellipse id="Oval-5" fill="url(#linearGradient-3)" cx="79.4384615" cy="56.7144663" rx="10.3384615" ry="9.09441656"></ellipse>
+                <ellipse id="Oval-5" fill="url(#linearGradient-4)" cx="159.561538" cy="54.1160616" rx="10.3384615" ry="9.09441656"></ellipse>
+                <path d="M98.5661358,75.0751364 C103.940116,82.0042157 109.396526,82.0042157 114.935367,75.0751364" id="Path-7" stroke="#59379D" stroke-width="2.592"></path>
+                <ellipse id="Oval" stroke="#59379D" stroke-width="0.864" fill="#59379D" cx="122.477455" cy="64.7118841" rx="2.15384615" ry="1.73226982"></ellipse>
+                <path d="M128.473145,74.6679366 C133.847124,81.5970159 139.303534,81.5970159 144.842375,74.6679366" id="Path-7" stroke="#59379D" stroke-width="2.592" transform="translate(136.657760, 77.266341) scale(-1, 1) translate(-136.657760, -77.266341) "></path>
+                <path d="" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                <g id="Mouth" transform="translate(117.000000, 85.000000)">
+                    <path d="M10.8230769,2 C9.48974359,4 7.54871795,4.73034226 5,4.19102678" id="Path-8" stroke="#59379D" stroke-width="1.728" transform="translate(7.911538, 3.181421) scale(-1, 1) translate(-7.911538, -3.181421) "></path>
+                    <path d="M5.82307692,2 C4.48974359,4 2.54871795,4.73034226 0,4.19102678" id="Path-8" stroke="#59379D" stroke-width="1.728"></path>
+                    <circle id="Oval-3" fill="#59379D" transform="translate(5.841629, 1.418686) rotate(-80.000000) translate(-5.841629, -1.418686) " cx="5.46662903" cy="1.04368591" r="1"></circle>
+                </g>
+                <polygon id="Triangle" fill="#59379D" transform="translate(236.706800, 3.882369) rotate(75.000000) translate(-236.706800, -3.882369) " points="236.7068 0.996891152 239.942007 6.76784747 233.471593 6.76784747"></polygon>
+                <polygon id="Triangle" fill="#59379D" transform="translate(13.118043, 3.882369) rotate(75.000000) translate(-13.118043, -3.882369) " points="13.118043 0.996891152 16.3532501 6.76784747 9.88283588 6.76784747"></polygon>
+                <polygon id="Triangle" fill="#8BF6E7" transform="translate(42.573964, 117.943920) rotate(-43.000000) translate(-42.573964, -117.943920) " points="42.5739645 111.812279 48.3254438 124.075561 36.8224852 124.075561"></polygon>
+                <polygon id="Triangle" fill="#FFFFFF" transform="translate(4.110947, 27.412043) rotate(-7.000000) translate(-4.110947, -27.412043) " points="4.11094675 24.5265643 7.34615385 30.2975207 0.875739645 30.2975207"></polygon>
+                <polygon id="Triangle" fill="#8BF6E7" transform="translate(29.653546, 91.168084) rotate(75.000000) translate(-29.653546, -91.168084) " points="29.6535459 88.2826054 32.888753 94.0535618 26.4183388 94.0535618"></polygon>
+                <polygon id="Path-2" fill="#8BF6E7" points="26.0384615 3.6068477 44.63737 21.9903888 26.0384615 39.7953268 44.63737 58.4309327 35.3379157 39.7953268 54.0769231 21.9903888"></polygon>
+                <polygon id="Star" fill="#59379D" points="13.118043 70.3740288 9.5634333 72.0991736 10.2423033 68.4452582 7.3665637 65.857541 11.3407381 65.324442 13.118043 62 14.8953478 65.324442 18.8695223 65.857541 15.9937826 68.4452582 16.6726527 72.0991736"></polygon>
+                <polygon id="Triangle" fill="#8BF6E7" transform="translate(190.674556, 117.943920) scale(-1, 1) rotate(-43.000000) translate(-190.674556, -117.943920) " points="190.674556 111.812279 196.426036 124.075561 184.923077 124.075561"></polygon>
+                <polygon id="Triangle" fill="#FFFFFF" transform="translate(236.326923, 27.412043) scale(-1, 1) rotate(-7.000000) translate(-236.326923, -27.412043) " points="236.326923 24.5265643 239.56213 30.2975207 233.091716 30.2975207"></polygon>
+                <polygon id="Triangle" fill="#8BF6E7" transform="translate(213.700883, 95.496301) scale(-1, 1) rotate(75.000000) translate(-213.700883, -95.496301) " points="213.700883 92.6108227 216.93609 98.381779 210.465676 98.381779"></polygon>
+                <polygon id="Path-2" fill="#8BF6E7" transform="translate(203.255917, 31.018890) scale(-1, 1) translate(-203.255917, -31.018890) " points="189.236686 3.6068477 207.835595 21.9903888 189.236686 39.7953268 207.835595 58.4309327 198.536141 39.7953268 217.275148 21.9903888"></polygon>
+                <polygon id="Star" fill="#59379D" transform="translate(230.934911, 67.087367) scale(-1, 1) translate(-230.934911, -67.087367) " points="230.934911 70.4118092 227.380302 72.136954 228.059172 68.4830386 225.183432 65.8953214 229.157606 65.3622224 230.934911 62.0377804 232.712216 65.3622224 236.686391 65.8953214 233.810651 68.4830386 234.489521 72.136954"></polygon>
+                <polygon id="Star-2" fill="#59379D" points="57.4 83.5151515 55.2839731 84.7672723 55.6880983 82.1152379 53.9761965 80.2370567 56.3419865 79.8501301 57.4 77.4372294 58.4580135 79.8501301 60.8238035 80.2370567 59.1119017 82.1152379 59.5160269 84.7672723"></polygon>
+                <polygon id="Star-2" fill="#59379D" points="194.023803 83.5151515 191.907777 84.7672723 192.311902 82.1152379 190.6 80.2370567 192.96579 79.8501301 194.023803 77.4372294 195.081817 79.8501301 197.447607 80.2370567 195.735705 82.1152379 196.13983 84.7672723"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

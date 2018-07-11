@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="164px" height="328px" viewBox="0 0 164 328" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobileApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Check-in" transform="translate(-106.000000, -204.000000)">
+            <g id="Group-2" transform="translate(108.000000, 206.000000)">
+                <path d="" id="Path-9" stroke="#979797"></path>
+                <path d="" id="Path-10" stroke="#979797"></path>
+                <path d="" id="Path-11" stroke="#979797"></path>
+                <path d="" id="Path-13" stroke="#979797"></path>
+                <circle id="Oval" stroke="#882EFF" fill="#882EFF" cx="81" cy="34" r="3"></circle>
+                <ellipse id="Oval-4" stroke="#882EFF" stroke-width="3" cx="80.5" cy="45.5" rx="49.5" ry="45.5"></ellipse>
+                <ellipse id="Oval-5" stroke="#882EFF" stroke-width="3" cx="16" cy="15.5" rx="16" ry="15.5"></ellipse>
+                <ellipse id="Oval-5" stroke="#882EFF" stroke-width="3" cx="144" cy="15.5" rx="16" ry="15.5"></ellipse>
+                <path d="M45,49 C53.5350972,59.6666667 62.2011129,59.6666667 70.9980469,49" id="Path-7" stroke="#882EFF" stroke-width="3"></path>
+                <path d="M89,49 C97.5350972,59.6666667 106.201113,59.6666667 114.998047,49" id="Path-7" stroke="#882EFF" stroke-width="3" transform="translate(101.999023, 53.000000) scale(-1, 1) translate(-101.999023, -53.000000) "></path>
+                <path d="M80.0078125,71 C77.7175587,76.204516 75.7149545,78.0231587 74,76.4559279" id="Path-8" stroke="#882EFF" stroke-width="2"></path>
+                <path d="M87,71 C84.7127244,76.204516 82.7127244,78.0231587 81,76.4559279" id="Path-8" stroke="#882EFF" stroke-width="2" transform="translate(84.000000, 74.000000) scale(-1, 1) translate(-84.000000, -74.000000) "></path>
+                <path d="M66.2622802,95.5 L53.7135527,189.5 L108.233537,189.5 L92.7946276,95.5 L66.2622802,95.5 Z" id="Rectangle-9" stroke="#882EFF" stroke-width="3"></path>
+                <path d="M23.6510354,151 C36.7131416,151 77.0413904,116.106096 47.3020708,116.106096 C39.4683626,116.106096 39.4683626,132.481107 23.6510354,133.228865 C7.83370822,133.976623 0,106.297098 0,116.106096 C1.93989297e-15,136.336937 10.5889292,151 23.6510354,151 Z" id="Oval-6" stroke="#882EFF" stroke-width="3" transform="translate(29.000000, 132.500000) scale(-1, 1) translate(-29.000000, -132.500000) "></path>
+                <path d="M125.651035,151 C138.713142,151 179.04139,116.106096 149.302071,116.106096 C141.468363,116.106096 141.468363,132.481107 125.651035,133.228865 C109.833708,133.976623 102,106.297098 102,116.106096 C102,136.336937 112.588929,151 125.651035,151 Z" id="Oval-6" stroke="#882EFF" stroke-width="3"></path>
+                <ellipse id="Oval-7" stroke="#882EFF" stroke-width="3" fill="#C9FBF4" transform="translate(78.445662, 222.705661) rotate(-55.000000) translate(-78.445662, -222.705661) " cx="78.445662" cy="222.705661" rx="11" ry="64.4371144"></ellipse>
+                <ellipse id="Oval-7" stroke="#882EFF" stroke-width="3" fill="#CCFCF5" transform="translate(81.554338, 223.481964) scale(-1, 1) rotate(-55.000000) translate(-81.554338, -223.481964) " cx="81.554338" cy="223.481964" rx="11" ry="65.7905578"></ellipse>
+                <ellipse id="Oval-9" fill-opacity="0.456889719" fill="#8830FF" cx="79.5" cy="313.5" rx="60.5" ry="12.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

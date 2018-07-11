@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="115px" height="130px" viewBox="0 0 115 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tutorial_1" transform="translate(-361.000000, -244.000000)">
+            <g id="Group-3" transform="translate(362.000000, 245.000000)">
+                <ellipse id="Oval-8" stroke="#882EFF" stroke-width="2" fill="#D7FAF6" cx="11.5" cy="16" rx="11.5" ry="12"></ellipse>
+                <ellipse id="Oval-8" stroke="#882EFF" stroke-width="2" fill="#D7FAF6" cx="101.5" cy="12" rx="11.5" ry="12"></ellipse>
+                <ellipse id="Oval-12" stroke="#882EFF" stroke-width="3" fill="#D7FAF6" cx="58" cy="34" rx="35" ry="30"></ellipse>
+                <path d="M34.8153846,36 C40.1893643,42.9290793 45.6457746,42.9290793 51.1846154,36" id="Path-7" stroke="#59379D" stroke-width="2.592"></path>
+                <ellipse id="Oval" stroke="#59379D" stroke-width="0.864" fill="#59379D" cx="58.9692308" cy="25.7322698" rx="2.15384615" ry="1.73226982"></ellipse>
+                <path d="M64.8153846,36 C70.1893643,42.9290793 75.6457746,42.9290793 81.1846154,36" id="Path-7" stroke="#59379D" stroke-width="2.592" transform="translate(73.000000, 38.598405) scale(-1, 1) translate(-73.000000, -38.598405) "></path>
+                <g id="Mouth" transform="translate(53.000000, 52.000000)">
+                    <path d="M12,1 C10.0606061,3 7.81818182,3 5.27272727,1" id="Path-8" stroke="#59379D" stroke-width="1.728" transform="translate(8.636364, 1.750000) scale(-1, 1) translate(-8.636364, -1.750000) "></path>
+                    <path d="M6.46993007,1 C4.53053613,3 2.37389277,3 0,1" id="Path-8" stroke="#59379D" stroke-width="1.728"></path>
+                    <ellipse id="Oval-3" fill="#59379D" transform="translate(6.155996, 0.912442) rotate(-80.000000) translate(-6.155996, -0.912442) " cx="6.15599582" cy="0.787441734" rx="1" ry="1"></ellipse>
+                </g>
+                <path d="M46.4330363,127.339177 C59.4951425,127.339177 85.5213204,92.4452733 55.7820009,92.4452733 C47.9482927,92.4452733 62.2503635,108.820284 46.4330363,109.568042 C30.6157091,110.3158 22.7820009,82.6362748 22.7820009,92.4452733 C22.7820009,112.676114 33.3709301,127.339177 46.4330363,127.339177 Z" id="Oval-6" stroke="#882EFF" stroke-width="3" fill="#D7FAF6" transform="translate(46.130634, 108.839177) rotate(14.000000) translate(-46.130634, -108.839177) "></path>
+                <path d="M72.8458401,126.719097 C85.9079462,126.719097 111.934124,91.825193 82.1948047,91.825193 C74.3610964,91.825193 88.6631673,108.200204 72.8458401,108.947962 C57.0285129,109.69572 49.1948047,82.0161944 49.1948047,91.825193 C49.1948047,112.056034 59.7837339,126.719097 72.8458401,126.719097 Z" id="Oval-6" stroke="#882EFF" stroke-width="3" fill="#D7FAF6" transform="translate(72.543437, 108.219097) scale(-1, 1) rotate(16.000000) translate(-72.543437, -108.219097) "></path>
+                <g id="Group" transform="translate(45.000000, 74.000000)" stroke="#7F46FF" stroke-width="1.44">
+                    <path d="M16.4887108,16.6804614 L16.4887108,3.8809476 L6.55657409,3.8809476 C4.96599401,3.8809476 3.67657409,5.17036752 3.67657409,6.7609476 L3.67657409,13.8004614 C3.67657409,15.3910415 4.96599401,16.6804614 6.55657409,16.6804614 L16.4887108,16.6804614 Z" id="Rectangle-4" transform="translate(10.082642, 10.280705) rotate(45.000000) translate(-10.082642, -10.280705) "></path>
+                    <path d="M11.8558198,16.8473032 L23.7317989,16.8473032 L23.7317989,6.32859352 C23.7317989,4.73801344 22.442379,3.44859352 20.8517989,3.44859352 L14.7358198,3.44859352 C13.1452398,3.44859352 11.8558198,4.73801344 11.8558198,6.32859352 L11.8558198,16.8473032 Z" id="Rectangle-4" transform="translate(17.793809, 10.147948) rotate(45.000000) translate(-17.793809, -10.147948) "></path>
+                    <path d="M14.4604701,5.19354839 L5.1965812,14.0967742" id="Path-4"></path>
+                    <path d="M18.7361111,10.3870968 L22.2991453,14.0967742" id="Path-5"></path>
+                    <polyline id="Path-3" points="10.536957 19.6699849 14.00674 22.8665023 17.0179214 19.6699849"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

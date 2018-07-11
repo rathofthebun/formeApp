@@ -1,0 +1,56 @@
+
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <!--my style-->
+    <link rel="stylesheet" href="dash-style.css">
+
+<div class="header">
+    <div class="logo">
+        <img src="images/logo-mint.svg">
+    </div>
+    <div class="nav">
+        <img src="images/status-3.svg">
+    </div>
+</div><!--end header-->
+
+    <div class="journal-wrap">
+        <h2 class="journal-title"> Don't be afraid to write how you feel!</h2>
+        <form id="journal-form">
+            <div class="form-group">
+                <label class="journal-label" for="journal-entry">Write your feelings here</label>
+                <textarea class="form-control" id="journal-entry" rows="10"></textarea>
+
+         </div>
+        </form>
+        <a href="#" id="journal-submit">Submit</a>
+    </div>
+
+    <div class="footer journal-footer">
+        <div class="footer-button question">
+            ?
+        </div>
+        <a href="dash.html"><div class="footer-button home">
+            <i class="fas fa-home"></i>
+        </div></a>
+    </div>
+
+    <script>
+
+        $("#journal-submit").on("click", function(){
+            const myEntry = $("#journal-entry").val();
+
+            // save to firebase - which for whatever reason you do not have/didn't copy from my sample project
+            userdata[todaysDate]["journals"] =  myEntry;
+            updateFirebase();
+            $(".j-check").addClass("complete");
+        });
+
+
+    </script>
+
+    </script>

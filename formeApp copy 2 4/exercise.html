@@ -1,0 +1,43 @@
+
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="dash-style.css">
+<div class="purple-wrap"></div>
+<div class="header">
+    <div class="logo">
+       <img src="images/logo-mint.svg">
+    </div>
+    <div class="nav">
+        <img src="images/status-2.svg">
+    </div>
+</div>
+    <div class="main-exercise">
+        <div class="exercise-img"></div>
+        <div class="exercise-words">
+            <h2 class="exercise-title">Think of three things you did today that you are proud of!</h2>
+        </div>
+        <div id="exercise-submit" href="dash.html">Okay!</div>
+    </div>
+            <div class="footer exercise-footer">
+                <div class="footer-button question">
+                    ?
+                </div>
+                <a href="dash.html"><div class="footer-button home">
+                    <i class="fas fa-home"></i>
+                </div></a>
+            </div>
+</div>
+
+<script>
+
+    $("#exercise-submit").on("click", function(){
+
+        // save to firebase - which for whatever reason you do not have/didn't copy from my sample project
+        userdata[todaysDate]["exercise"] =  true;
+        updateFirebase();
+        $(".e-check").addClass("complete");
+    });
+
+
+</script>
+

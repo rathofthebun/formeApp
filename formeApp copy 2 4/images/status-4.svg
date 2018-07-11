@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="217px" height="38px" viewBox="0 0 217 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>status-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="seed!" transform="translate(-734.000000, -29.000000)">
+            <g id="status-4" transform="translate(735.000000, 26.000000)">
+                <text id="Day-1-complete!" font-family="Futura-Medium, Futura" font-size="13" font-weight="400" fill="#C0FAF2">
+                    <tspan x="58" y="14">Day 1 complete!</tspan>
+                </text>
+                <path d="M14.5,30.5 L205.5,30.5" id="Line-2" stroke="#C2FAF3" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3" cx="9" cy="31" r="9"></circle>
+                <circle id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3" cx="110" cy="31" r="9"></circle>
+                <circle id="Oval-10" stroke="#C2FAF3" stroke-width="2" fill="#C2FAF3" cx="206" cy="31" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

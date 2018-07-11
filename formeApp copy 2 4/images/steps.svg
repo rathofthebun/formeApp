@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="454px" height="102px" viewBox="0 0 454 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.15416667%" y1="1.27097445%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#745FFF" offset="0%"></stop>
+            <stop stop-color="#8043FF" offset="32.9773302%"></stop>
+            <stop stop-color="#882EFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="54.0779041" y="17.4220959" width="82" height="79" rx="25"></rect>
+        <filter x="-8.5%" y="-6.3%" width="117.1%" height="117.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="187.922096" y="17.4220959" width="82" height="79" rx="25"></rect>
+        <filter x="-8.5%" y="-6.3%" width="117.1%" height="117.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="321.922096" y="17.4220959" width="82" height="79" rx="25"></rect>
+        <filter x="-8.5%" y="-6.3%" width="117.1%" height="117.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-8" cx="67.5" cy="27.5" r="12.5"></circle>
+        <filter x="-28.0%" y="-20.0%" width="156.0%" height="156.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-10" cx="198.5" cy="26.5" r="12.5"></circle>
+        <filter x="-28.0%" y="-20.0%" width="156.0%" height="156.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-12" cx="336.5" cy="26.5" r="12.5"></circle>
+        <filter x="-28.0%" y="-20.0%" width="156.0%" height="156.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tutorial_2" transform="translate(-283.000000, -269.000000)">
+            <g id="Group-3" transform="translate(283.000000, 261.000000)">
+                <path d="M12.5,56.5 L445.5,56.5" id="Line-4" stroke="#BBF5ED" stroke-width="3" stroke-linecap="square"></path>
+                <g id="Rectangle-6" transform="translate(95.077904, 56.922096) rotate(45.000000) translate(-95.077904, -56.922096) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Rectangle-6" transform="translate(228.922096, 56.922096) rotate(45.000000) translate(-228.922096, -56.922096) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <g id="Rectangle-6" transform="translate(362.922096, 56.922096) rotate(45.000000) translate(-362.922096, -56.922096) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <circle id="Oval-8" fill="#BBF5ED" cx="10" cy="57" r="10"></circle>
+                <circle id="Oval-8" fill="#BBF5ED" cx="444" cy="57" r="10"></circle>
+                <text id="check-in" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" fill="#FFFFFF">
+                    <tspan x="69.6762695" y="63">check-in</tspan>
+                </text>
+                <text id="exercise" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" fill="#FFFFFF">
+                    <tspan x="203.245605" y="62">exercise</tspan>
+                </text>
+                <text id="journal" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" fill="#FFFFFF">
+                    <tspan x="340.731934" y="63">journal</tspan>
+                </text>
+                <g id="Oval-10">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    <use fill="#BBF5ED" fill-rule="evenodd" xlink:href="#path-8"></use>
+                </g>
+                <g id="Oval-10">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                    <use fill="#BBF5ED" fill-rule="evenodd" xlink:href="#path-10"></use>
+                </g>
+                <g id="Oval-10">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                    <use fill="#BBF5ED" fill-rule="evenodd" xlink:href="#path-12"></use>
+                </g>
+                <text id="1" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" fill="#8634FF">
+                    <tspan x="63.6796875" y="33">1</tspan>
+                </text>
+                <text id="2" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" fill="#8634FF">
+                    <tspan x="194.679688" y="31">2</tspan>
+                </text>
+                <text id="3" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" fill="#8634FF">
+                    <tspan x="331.679688" y="31">3</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

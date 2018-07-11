@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="444px" height="192px" viewBox="0 0 444 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>upper_graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.63956311%" y1="16.0197806%" x2="29.641395%" y2="59.6387516%" id="linearGradient-1">
+            <stop stop-color="#2E14DE" offset="0%"></stop>
+            <stop stop-color="#6A03F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.15416667%" y1="1.27097445%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#745FFF" offset="0%"></stop>
+            <stop stop-color="#8043FF" offset="59.8356214%"></stop>
+            <stop stop-color="#882EFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home">
+            <g id="upper_graphic" transform="translate(-182.000000, -70.000000)">
+                <path d="M0,305 C73.4772323,126.874778 138.184544,46.1704712 194.121936,62.8870801 C234.713581,75.0176897 281.85448,113.133155 326.139159,75.1150053 C345.552906,58.4484111 348.439129,44.6900579 389.397411,9.084209 C441.869021,-36.5304051 531.95594,106.061775 533.795396,75.1150053 C538.068201,3.22991153 538.068201,79.8582431 533.795396,305 L0,305 Z" id="Path-2" fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" transform="translate(268.500000, 152.500000) scale(-1, -1) translate(-268.500000, -152.500000) "></path>
+                <path d="M157,292 C219,178.666667 276.670175,135.710624 330.010526,163.131872 C360.407789,178.75852 453.114777,214.357209 498.063158,192.857939 C543.011539,171.35867 619.422982,92.1570204 622.747368,60.9961553 C627.084211,20.3451237 627.084211,103.679739 622.747368,311 L157,292 Z" id="Path-2" fill="url(#linearGradient-2)" style="mix-blend-mode: overlay;" transform="translate(391.500000, 181.000000) scale(-1, -1) translate(-391.500000, -181.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

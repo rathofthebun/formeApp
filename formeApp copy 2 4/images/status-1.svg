@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="217px" height="38px" viewBox="0 0 217 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>status-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobileApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Check-in" transform="translate(-77.000000, -62.000000)">
+            <g id="status-1" transform="translate(78.000000, 59.000000)">
+                <text id="Step-1-of-3" font-family="Futura-Medium, Futura" font-size="13" font-weight="400" fill="#882EFF">
+                    <tspan x="74" y="14">Step 1 of 3</tspan>
+                </text>
+                <path d="M14.5,30.5 L205.5,30.5" id="Line-2" stroke="#882EFF" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval-10" stroke="#882EFF" stroke-width="2" fill="#D9FDF9" cx="9" cy="31" r="9"></circle>
+                <path d="M9,22 C13.4999505,22.4974443 17,26.3125176 17,30.9450712 C17,35.5776249 13.4999505,39.3926982 9,39.8901424 L9,22 Z" id="Combined-Shape" stroke="#882EFF" stroke-width="2" fill="#882EFF"></path>
+                <circle id="Oval-10" stroke="#882EFF" stroke-width="2" fill="#DAFDF9" cx="110" cy="31" r="9"></circle>
+                <circle id="Oval-10" stroke="#882EFF" stroke-width="2" fill="#DAFDF9" cx="206" cy="29" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="31px" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="webApp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkIn" transform="translate(-23.000000, -21.000000)" stroke="#7F46FF" stroke-width="2">
+            <g id="Group" transform="translate(21.000000, 19.000000)">
+                <path d="M22.8566017,22.4527958 L22.8566017,5.26040764 L8.85660172,5.26040764 C6.64746272,5.26040764 4.85660172,7.05126864 4.85660172,9.26040764 L4.85660172,18.4527958 C4.85660172,20.6619348 6.64746272,22.4527958 8.85660172,22.4527958 L22.8566017,22.4527958 Z" id="Rectangle-4" transform="translate(13.856602, 13.856602) rotate(45.000000) translate(-13.856602, -13.856602) "></path>
+                <path d="M16.3345238,22.6776695 L33.0208153,22.6776695 L33.0208153,8.67766953 C33.0208153,6.46853053 31.2299543,4.67766953 29.0208153,4.67766953 L20.3345238,4.67766953 C18.1253848,4.67766953 16.3345238,6.46853053 16.3345238,8.67766953 L16.3345238,22.6776695 Z" id="Rectangle-4" transform="translate(24.677670, 13.677670) rotate(45.000000) translate(-24.677670, -13.677670) "></path>
+                <path d="M20,7 L7,19" id="Path-4"></path>
+                <path d="M26,14 L31,19" id="Path-5"></path>
+                <polyline id="Path-3" points="14.4941406 26.5117188 19.3632812 30.8200684 23.5888672 26.5117188"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
